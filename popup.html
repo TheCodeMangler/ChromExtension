@@ -6,7 +6,7 @@
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>MotiMemes</title>
     <style type="text/css">
       body {
         margin: 10px;
@@ -22,6 +22,27 @@
         display: flex;
         justify-content: space-between;
       }
+      .button {
+      display: block;
+      border: 3px solid #000;
+      width: 100px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 100px;
+      margin: 0 auto;
+      text-decoration: none;
+      color: black;
+      background: #297c46;
+      font-family: Baloo Tamma;
+      box-shadow: 0 8px #000;
+      }
+      /*Commands when hovering over .button*/
+      .button:hover {background-color: #108910}
+      /*.button appearance upon clicking*/
+      .button:active {
+      box-shadow: 0 5px #000;
+      transform: translateY(4px);
+      }
     </style>
 
     <!--
@@ -34,9 +55,8 @@
   </head>
 
   <body>
-    <h1>Background Color Changer</h1>
-    <div id="container">
-      <span>Choose a color</span>
+    <h1>Generate a Motivational Meme</h1>
+    <!-- <div id="container">
       <select id="dropdown">
         <option selected disabled hidden value=''></option>
         <option value="white">White</option>
@@ -44,6 +64,8 @@
         <option value="green">Green</option>
         <option value="yellow">Yellow</option>
       </select>
-    </div>
+
+    </div> -->
+    <a class="button" target="_blank" href="https://media.giphy.com/media/YGIpIZjgxL68w/giphy.gif" />About us</a>
   </body>
 </html>
