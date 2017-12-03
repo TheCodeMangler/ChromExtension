@@ -1,9 +1,3 @@
-<!doctype html>
-<!--
- This page is shown when the extension button is clicked, because the
- "browser_action" field in manifest.json contains the "default_popup" key with
- value "popup.html".
- -->
 <html>
   <head>
     <title>MotiMemes</title>
@@ -51,7 +45,6 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
     -->
-    <script src="popup.js"></script>
   </head>
 
   <body>
@@ -66,6 +59,7 @@
       </select>
 
     </div> -->
-    <a class="button" target="_blank" href="https://media.giphy.com/media/YGIpIZjgxL68w/giphy.gif" />About us</a>
+    <a class="button" id="button" target="_blank">Generate</a>
   </body>
+  <script type='text/javascript' src="popup.js"></script>
 </html>

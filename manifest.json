@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension allows the user to change the background color of the current page.",
+  "name": "MotiMemes",
+  "description": "Motivational Memes for the Soul.",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "successkid.png",
     "default_popup": "popup.html"
   },
   "permissions": [
